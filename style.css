@@ -1,0 +1,276 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.first-section{
+    background-color:#0C70AC ;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 190px;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row ;
+    gap: 50px;
+}
+
+header{
+    background-color: #0C70AC;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.header-list-item{
+    color: white;
+    font-size: 20px;
+    font-weight: 10px;
+    gap: 20px;
+}
+
+.header-list-item-logo{
+    color: yellow;
+      font-size: 20px;
+    font-weight: 10px;
+}
+
+.first-section-box{
+    width:545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Quicksand;
+
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+
+.text1p{
+ font-family: Quicksand;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+   color: rgb(190, 179, 184);
+}
+
+.text2{
+    font-family: Quicksand;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+
+}
+
+.second-section-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.text2-list{
+   font-family: Quicksand;
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+ 
+} 
+
+.text2-p{
+    font-family: Quicksand;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.text2-a{
+    color:gray ;
+    font-family: Quicksand;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-offset: 0%;
+text-decoration-thickness: 0%;
+
+}
+
+.third-section{
+   background-color: #E6E6E6;
+}
+
+.text3{
+color: black;
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+}
+
+.third-section-list{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 300px;
+   background-color: white;
+   width: 450px;
+   border-radius: 10px;
+}
+
+.third-main-container{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.third-text{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    width: 400px;
+}
+
+.p3{
+    color: gray;
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    width:500px ;
+    gap: 10px;
+    
+}
+
+footer{
+    background-color:#001C2D ;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer-text{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.first-footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+
+.footer-list2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100px;
+    height: 50px; */
+}
+
+.second-footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.footer-text2{
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.first-footer-box1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.second-footer-box1{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.p-footer{
+    color:white ;
+
+ 
+   text-align: center;
+}
+
+.footer-end{
+    background-color:#001C2D ;
+    padding: 20px 0;
+}
